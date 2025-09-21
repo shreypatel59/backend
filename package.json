@@ -1,3 +1,8 @@
+"scripts": {
+  "start": "node server.js",
+  "dev": "nodemon server.js",
+  "postinstall": "npm rebuild bcrypt --build-from-source"
+}
 {
   "name": "realtime-chat-backend",
   "version": "1.0.0",
